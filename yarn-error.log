@@ -1,0 +1,58 @@
+Arguments: 
+  /home/basti/.nvm/versions/node/v10.9.0/bin/node /home/basti/.yarn/bin/yarn.js add cropper.js
+
+PATH: 
+  /home/basti/.yarn/bin:/home/basti/.config/yarn/global/node_modules/.bin:/home/basti/.nvm/versions/node/v10.9.0/bin:/home/basti/.rvm/gems/ruby-2.2.3/bin:/home/basti/.rvm/gems/ruby-2.2.3@global/bin:/home/basti/.rvm/rubies/ruby-2.2.3/bin::/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/basti/Android/Sdk/tools:/home/basti/Android/Sdk/platform-tools:/bin:/bin:/home/basti/.local/bin:/home/basti/.rvm/bin:/home/basti/.rvm/bin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  10.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cropper.js: Not found
+      at Request.params.callback [as _callback] (/home/basti/.yarn/lib/cli.js:63139:18)
+      at Request.self.callback (/home/basti/.yarn/lib/cli.js:124547:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/home/basti/.yarn/lib/cli.js:125519:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/home/basti/.yarn/lib/cli.js:125441:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1085:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "description": "An element to wrap Cropper.js",
+    "name": "@polymer/yo-paper-cropper",
+    "version": "3.0.0",
+    "resolutions": {
+      "inherits": "2.0.3",
+      "samsam": "1.1.3",
+      "supports-color": "3.1.2",
+      "type-detect": "1.0.0",
+      "@webcomponents/webcomponentsjs": "2.0.0-beta.2"
+    },
+    "main": "yo-paper-cropper.js",
+    "license": "MIT",
+    "dependencies": {
+      "@polymer/polymer": "^3.0.0",
+      "@polymer/iron-image": "^3.0.0-pre.18"
+    },
+    "devDependencies": {
+      "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
+      "wct-browser-legacy": "^0.0.1-pre.11",
+      "@webcomponents/webcomponentsjs": "^2.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
