@@ -36,7 +36,6 @@ class YoPaperCropper extends PolymerElement {
                 width: auto;
             }
         </style>
-        HEY
         <div id="wrapper">
             <img id="image" class="image" src="[[src]]" on-load="_imageLoaded">
         </div>
