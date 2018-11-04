@@ -14,7 +14,7 @@
   "dependencies": {
     "@polymer/iron-image": "^3.0.0-pre.18",
     "@polymer/polymer": "^3.0.0",
-    "cropper": "^4.0.0"
+    "cropperjs": "^1.4.3"
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
